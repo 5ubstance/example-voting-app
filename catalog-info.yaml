@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: example-voting-app
   annotations:
+    backstage.io/techdocs-ref: dir:.
     sonarqube.org/project-key: example-voting-app
     github.com/project-slug: 5ubstance/example-voting-app
 spec:
