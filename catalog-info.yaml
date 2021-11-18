@@ -2,11 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: example-voting-app
+  description: Our voting app
   annotations:
     backstage.io/techdocs-ref: dir:.
     sonarqube.org/project-key: example-voting-app
     github.com/project-slug: 5ubstance/example-voting-app
 spec:
-  type: other
-  lifecycle: unknown
-  owner: infrastructure
+  type: service
+  lifecycle: production
+  owner: team-a
