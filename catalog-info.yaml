@@ -7,6 +7,10 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     sonarqube.org/project-key: example-voting-app
     github.com/project-slug: 5ubstance/example-voting-app
+  links:
+    - url: https://my.monitoring.url/
+      title: Monitoring
+      icon: dashboard
 spec:
   type: openapi
   lifecycle: production
